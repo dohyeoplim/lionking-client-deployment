@@ -18,7 +18,7 @@ export default function WithMockServer({ children }: Readonly<{ children: React.
     }, [mswReady]);
 
     if (!mswReady) {
-        return <>Mock Server is Initializing!</>;
+        return <>Mock Server is being initialized...</>;
     }
 
     return <>{children}</>;
