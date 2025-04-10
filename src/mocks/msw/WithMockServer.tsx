@@ -7,7 +7,7 @@ export default function WithMockServer({ children }: Readonly<{ children: React.
 
     useEffect(() => {
         const init = async () => {
-            const initMsw = await import("../index").then((res) => res.initMsw);
+            const initMsw = await import("./index").then((res) => res.initMsw);
             await initMsw();
             setMswReady(true);
         };
@@ -16,6 +16,10 @@ export default function WithMockServer({ children }: Readonly<{ children: React.
             init();
         }
     }, [mswReady]);
+
+    if (!mswReady) {
+        return <>Mock Server is Initializing!</>;
+    }
 
     return <>{children}</>;
 }
