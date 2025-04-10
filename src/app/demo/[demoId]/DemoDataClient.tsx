@@ -1,9 +1,9 @@
 "use client";
 
-import { useTestData } from "@/api/test/useTestData";
+import { useDemoDataWithId } from "@/api/test/useDemoData";
 
-export default function TestDataClient({ testId }: { testId: string }) {
-    const { data, error, isLoading } = useTestData(Number(testId));
+export default function DemoDataClient({ demoId }: { demoId: string }) {
+    const { data, error, isLoading } = useDemoDataWithId(Number(demoId));
 
     if (error) {
         return <div>Error loading test data</div>;
