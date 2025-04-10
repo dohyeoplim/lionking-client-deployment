@@ -31,6 +31,8 @@ pnpm dev
 
 ## Storybook
 
+[Storybook 가이드 >](https://github.com/LIKELION-SEOULTECH/lionking-client/tree/main/docs/storybook.md)
+
 Storybook 배포 주소:
 |브랜치|주소|
 |---|---|
