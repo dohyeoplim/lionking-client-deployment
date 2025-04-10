@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import WithMockServer from "@/mocks/msw/components/WithMockServer";
 
 export default function RootLayout({
     children,
@@ -8,7 +9,9 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="ko">
-            <body>{children}</body>
+            <WithMockServer>
+                <body>{children}</body>
+            </WithMockServer>
         </html>
     );
 }
