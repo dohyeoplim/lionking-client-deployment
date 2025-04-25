@@ -22,6 +22,7 @@ const eslintConfig = [
                     varsIgnorePattern: "^_",
                 },
             ],
+            "import/no-anonymous-default-export": "off",
         },
     }),
 ];

@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 import WithMockServer from "@/mocks/msw/WithMockServer";
 
+// Components
+import Header from "@/components/Header";
+
 export default function RootLayout({
     children,
 }: Readonly<{
@@ -9,8 +12,10 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="ko">
-            <body>
-                <WithMockServer>{children}</WithMockServer>
+            <body className="max-w-6xl mx-auto px-4">
+                <Header />
+                <main role="main">{children}</main>
+                <WithMockServer />
             </body>
         </html>
     );
