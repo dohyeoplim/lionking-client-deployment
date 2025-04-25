@@ -12,6 +12,19 @@ const nextConfig: NextConfig = {
         });
         return config;
     },
+    redirects: async () => [
+        {
+            source: "/home",
+            destination: "/",
+            permanent: true,
+        },
+    ],
+    rewrites: async () => [
+        {
+            source: "/",
+            destination: "/home",
+        },
+    ],
 };
 
 export default nextConfig;
