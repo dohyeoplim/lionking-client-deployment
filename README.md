@@ -5,7 +5,7 @@
 <br/>
 서울과학기술대학교 멋쟁이사자처럼 대학 13기 홈페이지 프로젝트
 
-<br/>
+<span style="display:block; height: 8px;"></span>
 
 ![vitest-badge](https://github.com/LIKELION-SEOULTECH/lionking-client/actions/workflows/run_tests.yml/badge.svg)
 
