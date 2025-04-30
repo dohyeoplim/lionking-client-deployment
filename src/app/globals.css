@@ -1,7 +1,8 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "../design/theme.css";
 
-@custom-variant dark (&:is(.dark *));
+@custom-variant dark (&: is(.dark *));
 
 @theme inline {
     --radius-sm: calc(var(--radius) - 4px);
@@ -117,13 +118,4 @@
     body {
         @apply bg-background text-foreground;
     }
-}
-
-@theme {
-    --color-lion-orange: #ff7710;
-    --color-lion-black: #1c1b1a;
-    --color-surface: #2a2927;
-    --color-border: #3a3a3a;
-    --color-primary: #f0f0f0;
-    --color-secondary: #c4c4c4;
 }
