@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Pretendard } from "@/fonts/loadFonts";
 import WithMockServer from "@/mocks/msw/WithMockServer";
 
 // Components
@@ -12,7 +13,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="ko">
-            <body className="max-w-6xl mx-auto px-4">
+            <body className={`${Pretendard.className} max-w-6xl mx-auto px-4`}>
                 <Header />
                 <main role="main">{children}</main>
                 <WithMockServer />
