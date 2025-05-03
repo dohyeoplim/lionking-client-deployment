@@ -13,14 +13,27 @@
 
 <br/>
 
-## 개발 환경
+## Workflow
 
-| 항목    | 버전       |
-| ------- | ---------- |
-| Node.js | `v20.19.0` |
-| PNPM    | `v10.8.0`  |
-| Next.js | `v15.3.0`  |
-| React   | `v19.0.0`  |
+### Branch Naming
+`[type]/[issue-number]-[short-description]`
+
+> 예시:
+> - `feature/1-intro-layout`
+> - `bugfix/21-card-image-align`
+
+### Commit Message
+`[#issue-number] [Type]: Summary`
+
+> 예시:
+> - `[#2] UI: Build layout for Intro section`
+> - `[#16] SEO: Add Open Graph meta tags`
+
+### Pull Request
+
+> 예시:
+> - `[#1] Build Home Page`
+> - `[#2] Build Intro Section Layout`
 
 <br/>
 
