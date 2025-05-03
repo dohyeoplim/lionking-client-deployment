@@ -8,9 +8,9 @@ export default function Header() {
             <div className="flex w-full items-center justify-between">
                 <Logo />
 
-                <div className="flex items-center gap-36">
+                <div className="flex items-center gap-12.5">
                     <Navigation />
-                    <Actions />
+                    <Actions isLoggedIn={true} />
                 </div>
             </div>
         </header>

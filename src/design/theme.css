@@ -39,97 +39,121 @@
 }
 
 .headline-1 {
-    font-size: 54px;
     font-weight: 700;
-    font-style: normal;
-    line-height: 140%;
+    font-size: 54px;
     letter-spacing: -0.02em;
 }
 
 .headline-2 {
-    font-size: 40px;
     font-weight: 700;
-    font-style: normal;
-    line-height: 140%;
+    font-size: 40px;
+    letter-spacing: -0.02em;
+}
+
+.headline-3 {
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 0em;
+}
+
+.headline-4 {
+    font-weight: 700;
+    font-size: 28px;
     letter-spacing: -0.02em;
 }
 
 .subtitle-1 {
-    font-size: 24px;
     font-weight: 600;
-    font-style: normal;
-    line-height: 140%;
+    font-size: 24px;
     letter-spacing: -0.02em;
 }
 
 .subtitle-2 {
-    font-size: 16px;
     font-weight: 600;
-    font-style: normal;
-    line-height: 140%;
+    font-size: 20px;
     letter-spacing: -0.02em;
 }
 
 .subtitle-3 {
-    font-size: 14px;
     font-weight: 600;
-    font-style: normal;
-    line-height: 140%;
+    font-size: 16px;
     letter-spacing: -0.02em;
 }
 
 .subtitle-4 {
-    font-size: 12px;
     font-weight: 600;
-    font-style: normal;
-    line-height: 140%;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+}
+
+.subtitle-5 {
+    font-weight: 600;
+    font-size: 12px;
     letter-spacing: -0.02em;
 }
 
 .body-1 {
-    font-size: 24px;
     font-weight: 600;
-    font-style: normal;
-    line-height: 154%;
+    font-size: 24px;
     letter-spacing: -0.02em;
 }
 
 .body-2 {
-    font-size: 20px;
     font-weight: 500;
-    font-style: normal;
-    line-height: 154%;
+    font-size: 20px;
     letter-spacing: -0.02em;
 }
 
 .body-3 {
-    font-size: 16px;
     font-weight: 500;
-    font-style: normal;
-    line-height: 154%;
+    font-size: 16px;
     letter-spacing: -0.02em;
 }
 
 .body-4 {
-    font-size: 12px;
-    font-weight: 500;
-    font-style: normal;
-    line-height: 154%;
+    font-weight: 400;
+    font-size: 16px;
     letter-spacing: -0.02em;
 }
 
 .body-5 {
+    font-weight: 500;
     font-size: 12px;
+    letter-spacing: -0.02em;
+}
+
+.caption-6 {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+}
+
+.caption-7 {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+}
+
+.caption-8 {
     font-weight: 600;
-    font-style: normal;
-    line-height: 100%;
+    font-size: 12px;
     letter-spacing: -0.02em;
 }
 
 .intro-1 {
-    font-size: 32px;
     font-weight: 600;
-    font-style: normal;
-    line-height: 150%;
+    font-size: 32px;
+    letter-spacing: -0.02em;
+}
+
+.intro-1 {
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -0.02em;
+}
+
+.intro-2 {
+    font-weight: 600;
+    font-size: 32px;
     letter-spacing: -0.02em;
 }

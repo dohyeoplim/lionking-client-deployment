@@ -4,24 +4,24 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 export const buttonVariants = cva(
-    "inline-flex items-center justify-center gap-2 whitespace-nowrap text-xs font-medium disabled:pointer-events-none disabled:opacity-50 outline-none focus-visible:ring-2 focus-visible:ring-ring/50 transition-all",
+    "inline-flex items-center justify-center whitespace-nowrap disabled:pointer-events-none disabled:opacity-50 outline-none focus-visible:ring-1 focus-visible:ring-ring/50 transition-all",
     {
         variants: {
             color: {
-                neutral: "text-neutral-400 border border-neutral-400/50 hover:bg-neutral-100",
-                orange: "text-lion-orange border border-lion-orange/50 hover:bg-orange-50",
-                destructive: "text-red-500 border border-red-400/50 hover:bg-red-50",
+                neutral: "text-neutral-400 border border-neutral-400/50 hover:bg-gray-6",
+                orange: "text-orange-main border border-orange-main border-1 hover:bg-gray-6",
+                destructive: "text-red-500 border border-red-400/50 hover:bg-gray-6",
                 primary: "text-white bg-neutral-800 hover:bg-neutral-900 border border-neutral-800",
-                ghost: "text-neutral-500 border-none hover:bg-neutral-100",
+                ghost: "text-neutral-500 border-none hover:bg-gray-6",
             },
             padding: {
-                sm: "px-3 py-1 text-xs",
-                md: "px-3.5 py-1.5 text-xs",
-                lg: "px-5 py-2 text-sm",
+                sm: "px-3 py-1",
+                md: "px-3.5 py-1.5 subtitle-4",
+                lg: "px-5 py-2",
             },
             round: {
                 sm: "rounded-sm",
-                md: "rounded-md",
+                md: "rounded-[8px]",
                 lg: "rounded-lg",
                 pill: "rounded-full",
             },
@@ -29,7 +29,7 @@ export const buttonVariants = cva(
         defaultVariants: {
             color: "primary",
             padding: "md",
-            round: "lg",
+            round: "md",
         },
     }
 );
@@ -37,8 +37,8 @@ export const buttonVariants = cva(
 export default function Button({
     className,
     color,
-    padding,
-    round,
+    padding = "md",
+    round = "md",
     asChild = false,
     ...props
 }: React.ComponentProps<"button"> &

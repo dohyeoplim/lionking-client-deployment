@@ -9,9 +9,15 @@ import { navigationLinks } from "./navigationLinks";
 export default function Navigation() {
     const pathname = usePathname();
     const isActive = (href: string) => pathname === href;
-    const isActiveClass = (href: string) => (isActive(href) ? "text-lion-orange" : "text-gray-700");
+    const isActiveClass = (href: string) => (isActive(href) ? "text-lion-orange" : "text-gray-2");
 
     return (
+        /* Design Spec:
+            - Navigation item gap: 40px (used gap-10 for tailwind)
+            - Navigation item text style: subtitle-3
+            - Default color: gray-2
+            - Hover color: orainge-main
+         */
         <nav className="flex gap-10" role="navigation" aria-label="사이트 내비게이션">
             {navigationLinks.map(({ label, key, href }) => (
                 <Link
@@ -19,10 +25,10 @@ export default function Navigation() {
                     href={href}
                     aria-current={isActive(href) ? "page" : undefined}
                     className={cn(
-                        "text-sm font-semibold transition-colors",
+                        "subtitle-3 transition-colors",
                         isActiveClass(href),
-                        "hover:text-lion-orange",
-                        "focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-lion-orange/50 focus-visible:ring-offset-2 focus-visible:ring-offset-white"
+                        "hover:text-orange-main",
+                        "focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-orange-main"
                     )}
                 >
                     {label}
