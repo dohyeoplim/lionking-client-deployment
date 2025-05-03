@@ -10,7 +10,7 @@ export default function Header() {
 
                 <div className="flex items-center gap-12.5">
                     <Navigation />
-                    <Actions isLoggedIn={true} />
+                    <Actions isLoggedIn={false} />
                 </div>
             </div>
         </header>

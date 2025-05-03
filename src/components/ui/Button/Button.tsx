@@ -8,7 +8,7 @@ export const buttonVariants = cva(
     {
         variants: {
             color: {
-                neutral: "text-neutral-400 border border-neutral-400/50 hover:bg-gray-6",
+                neutral: "text-gray-3 border border-gray-3 hover:bg-gray-6",
                 orange: "text-orange-main border border-orange-main border-1 hover:bg-gray-6",
                 destructive: "text-red-500 border border-red-400/50 hover:bg-gray-6",
                 primary: "text-white bg-neutral-800 hover:bg-neutral-900 border border-neutral-800",
@@ -20,9 +20,9 @@ export const buttonVariants = cva(
                 lg: "px-5 py-2",
             },
             round: {
-                sm: "rounded-sm",
-                md: "rounded-[8px]",
-                lg: "rounded-lg",
+                sm: "rounded-sm", // 4px
+                md: "rounded-md", // 6px
+                lg: "rounded-lg", // 8px
                 pill: "rounded-full",
             },
         },
@@ -38,7 +38,7 @@ export default function Button({
     className,
     color,
     padding = "md",
-    round = "md",
+    round = "lg",
     asChild = false,
     ...props
 }: React.ComponentProps<"button"> &
