@@ -5,6 +5,7 @@ import WithMockServer from "@/mocks/msw/WithMockServer";
 
 // Components
 import Header from "@/components/Header";
+import ChatButton from "@/components/ChatButton";
 
 export default function RootLayout({
     children,
@@ -17,6 +18,7 @@ export default function RootLayout({
                 <Header />
                 <main role="main">{children}</main>
                 <WithMockServer />
+                <ChatButton />
             </body>
         </html>
     );
