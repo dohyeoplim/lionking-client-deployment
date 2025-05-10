@@ -38,122 +38,116 @@
     );
 }
 
-.headline-1 {
+.head1_b {
     font-weight: 700;
     font-size: 54px;
     letter-spacing: -0.02em;
 }
 
-.headline-2 {
+.head2_b {
     font-weight: 700;
     font-size: 40px;
     letter-spacing: -0.02em;
 }
 
-.headline-3 {
+.head3_b {
     font-weight: 700;
     font-size: 32px;
     letter-spacing: 0em;
 }
 
-.headline-4 {
+.head4_b {
     font-weight: 700;
     font-size: 28px;
     letter-spacing: -0.02em;
 }
 
-.subtitle-1 {
+.head5_sb {
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: -0.02em;
+}
+
+.sub1_sb {
     font-weight: 600;
     font-size: 24px;
     letter-spacing: -0.02em;
 }
 
-.subtitle-2 {
+.sub2_sb {
     font-weight: 600;
     font-size: 20px;
     letter-spacing: -0.02em;
 }
 
-.subtitle-3 {
+.sub3_sb {
     font-weight: 600;
     font-size: 16px;
     letter-spacing: -0.02em;
 }
 
-.subtitle-4 {
+.sub4_sb {
     font-weight: 600;
     font-size: 14px;
     letter-spacing: -0.02em;
 }
 
-.subtitle-5 {
+.sub5_sb {
     font-weight: 600;
     font-size: 12px;
     letter-spacing: -0.02em;
 }
 
-.body-1 {
+.body1_sb {
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: -0.02em;
+}
+
+.body2_sb {
     font-weight: 600;
     font-size: 24px;
     letter-spacing: -0.02em;
 }
 
-.body-2 {
+.body3_m {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: -0.02em;
 }
 
-.body-3 {
+.body4_m {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: -0.02em;
 }
 
-.body-4 {
+.body5_r {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: -0.02em;
 }
 
-.body-5 {
+.body6_m {
     font-weight: 500;
     font-size: 12px;
     letter-spacing: -0.02em;
 }
 
-.caption-6 {
+.caption6_m {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: -0.02em;
 }
 
-.caption-7 {
+.caption7_m {
     font-weight: 500;
     font-size: 14px;
     letter-spacing: -0.02em;
 }
 
-.caption-8 {
+.caption8_sb {
     font-weight: 600;
     font-size: 12px;
-    letter-spacing: -0.02em;
-}
-
-.intro-1 {
-    font-weight: 600;
-    font-size: 32px;
-    letter-spacing: -0.02em;
-}
-
-.intro-1 {
-    font-weight: 600;
-    font-size: 36px;
-    letter-spacing: -0.02em;
-}
-
-.intro-2 {
-    font-weight: 600;
-    font-size: 32px;
     letter-spacing: -0.02em;
 }
