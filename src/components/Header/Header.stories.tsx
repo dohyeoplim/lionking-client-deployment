@@ -12,9 +12,19 @@ export default meta;
 type Story = StoryObj<typeof Header>;
 
 export const Default: Story = {
-    render: () => (
+    render: (args) => (
         <div className="max-w-7xl mx-auto px-4">
-            <Header />
+            <Header {...args} />
         </div>
     ),
+    args: {
+        isLoggedIn: false,
+    },
+    argTypes: {
+        isLoggedIn: {
+            control: {
+                type: "boolean",
+            },
+        },
+    },
 };
