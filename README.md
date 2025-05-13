@@ -53,7 +53,7 @@ pnpm dev
 Storybook 배포 주소:
 |브랜치|주소|
 |---|---|
-|main|[TO BE DEPLOYED]()|
-|develop|[TO BE DEPLOYED]()|
+|main|[storybook](https://likelion-seoultech.github.io/lionking-client/storybook/)|
+|develop|[storybook-dev](https://likelion-seoultech.github.io/lionking-client/storybook-dev/)|
 
 <br/>
