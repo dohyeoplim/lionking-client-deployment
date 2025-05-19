@@ -1,3 +1,9 @@
+import Record from "./sections/Record";
+
 export default function Home() {
-    return <div></div>;
+    return (
+        <>
+            <Record />
+        </>
+    );
 }
